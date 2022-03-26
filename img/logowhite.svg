@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1779" height="355" viewBox="0 0 1779 355">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 28px;
+        text-anchor: middle;
+        font-family: "Berlin Sans FB";
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <text id="Gitare.hr" class="cls-1" transform="translate(882.816 342.14) scale(17.172)"><tspan x="0">Gitare.hr</tspan></text>
+  <ellipse class="cls-2" cx="723" cy="227" rx="75" ry="80"/>
+  <path id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-3" d="M22,179H1755a5,5,0,0,1,0,10H22A5,5,0,1,1,22,179Zm-5,20H1760v10H17V199Zm21,20H1755a5,5,0,0,1,0,10H38A5,5,0,0,1,38,219Zm0,20H1755a5,5,0,0,1,0,10H38A5,5,0,0,1,38,239Zm4,20H1760v10H42V259Zm26,20H1755a5,5,0,0,1,0,10H68A5,5,0,0,1,68,279Z"/>
+</svg>

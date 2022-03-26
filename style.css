@@ -1,0 +1,254 @@
+  /* Univerzalni CSS */
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+
+  html::-webkit-scrollbar {
+    display: none;
+  }
+
+  html{
+    -ms-overflow-style: none;  /* IE i Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  /* Kod za navbar */
+  header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 7.5%;
+    background-color: #24252a;
+  }
+
+  .logoholder{
+    margin-right: auto;
+  }
+
+  .logo{
+    width: 200px;
+  }
+
+  .nav__links a, .konfig , .banner div, .copyright{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+  .nav__links{
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav__links li{
+    padding: 0px 20px;
+  }
+  
+  .nav__links li:last-child{
+    padding-right: 40px;
+  }
+  
+  .nav__links li a{
+    transition: color 0.1s ease-in 0s;
+  }
+  
+  .nav__links li a:hover{
+    color: #0088a9;
+  }
+  
+  .konfig{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease 0s;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .konfig:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+  }
+
+  /* Kod za banner */
+  .banner{
+    background-image: url(img/banner.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    /* background-size: 100%; */
+    position: relative;
+    text-align: center;
+    /* white-space: nowrap; */
+  }
+
+  .banner div{
+    width: 100%;
+    position: absolute;
+    bottom: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 11px #24252a;
+  }
+
+  /* Kod za mainpage*/
+  .mainpage, h1, .konfig__text{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .mainpage h1, h1{
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    padding: 55px 0px;
+    text-align: center;
+    color: #24252a;
+  }
+
+  .mainpage p, .info__gitare{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-size: 1.3rem;
+    word-spacing: 5px;
+    line-height: 40px;
+    padding-bottom: 20px;
+  }
+
+  .mainpage img{
+    outline: 8px double rgba(36,37,42,0.61);
+    outline-offset: 5px;
+  }
+
+  .gitr1{
+    margin: 15px 50px;
+    width: 40%;
+    float: right;
+  }
+
+  .gitr2{
+    margin: 15px 50px;
+    width: 40%;
+    float: left;
+  }
+
+  /* Kod za footer */
+  footer{
+    margin-top: 50px;
+    background-color: #24252a;
+  }
+
+  footer nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10%;
+  }
+
+  footer .copyright{
+    text-align: center;
+    margin-bottom: 20px;  
+  }
+
+  /* Kod za konfigurator formu */
+  .konfig__form{
+    border-radius: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(164, 176, 179, 0.404);
+    width: 45%;
+    margin: 0 auto;
+    padding: 50px;
+  }
+
+  .konfig__form input[type=text], .konfig__form input[type=range], .konfig__form select, textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .konfig__form input[type=submit], .konfig__form input[type=reset]{
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    padding: 16px 16px;
+    cursor: pointer;
+  }
+
+  #potvrdi{
+    background-color: #4CAF50;
+  }
+
+  #ocisti{
+    background-color: #af4c4c;
+  }
+
+  .info{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #0088a9;
+    padding: 25px;
+    border-radius: 5px;
+    color: #edf0f1;
+  }
+
+  /* Kod za trgovine */
+  table{
+    margin-bottom: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+  }
+
+  td{
+    width: 20%;
+    text-align: center;
+  }
+
+  /* Kod za nauci */
+
+  .links{
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  iframe{
+    margin: 0 auto;
+    display: block;
+  }
+
+  .nauci__link{
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #24252a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  /* Kod za gitare */
+  .info__div{
+    width: 80%; 
+    margin: 50px auto;
+    border: #24252a 2px solid;
+    padding: 25px;
+    border-radius: 15px;
+  }
+
+  .gitara1{
+    width: 25%;
+    float: left;
+  }
+
+  .gitara2{
+    width: 25%;
+    float: right;
+  }
